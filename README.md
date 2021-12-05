@@ -16,7 +16,7 @@ $ sudo apt-get install python3-opencv
 
 Чтобы убедиться, что установка библиотеки `OpenCV` прошла успешно, введите в своей среде разработки Python (Open Python IDLE, IPython, VS Code etc) следующий код:
 
-```
+``` python
 import cv2 as cv
 print(cv.__version__) 
 ```
